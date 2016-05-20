@@ -1,0 +1,13 @@
+<div>    
+    <h2>Total Heroes : [{{totalHeroes}}]</h2>
+  	<h3>Add new hero detail!</h3>
+  	<div>
+  		<label>Id:</label> <input [(ngModel)]="hero.id" placeholder="Id"/>
+  	</div>
+  	<div>
+  		<label>Name:</label><input [(ngModel)]="hero.name" placeholder="Name"/>
+  	</div>
+  	<div>
+  		<button (click)="addNewHero()">Save</button>  		
+  	</div>
+</div>
